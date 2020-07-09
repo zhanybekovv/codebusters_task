@@ -4,6 +4,10 @@ import Button from "./components/Button";
 import Text from "./components/Text";
 import Logo from "./components/Logo";
 import Dot from "./components/Dot";
+import "../node_modules/bootstrap/dist/css/bootstrap.css";
+// import "../node_modules/bootstrap/dist/js/bootstrap";
+
+import Validation from "./components/Validation"
 
 const Main = styled.div`
   background: #ff8f66;
@@ -44,19 +48,20 @@ const Line = styled.div`
 
 const App: React.FC = () => {
   return (
-    <Main>
-      <Body>
-        <Text></Text>
-        <SecondLine>
-          <Button></Button>
-
-          <Dot></Dot>
-
-          <Logo></Logo>
-        </SecondLine>
-      </Body>
-      <Line></Line>
-    </Main>
+    // <Main>
+    //   <Body>
+    //     <Text></Text>
+    //     <SecondLine>
+    //       <Button></Button>
+    //       <Dot></Dot>
+    //       <Logo></Logo>
+    //     </SecondLine>
+    //   </Body>
+    //   <Line></Line>
+    // </Main>
+    <div style={{display: "flex", justifyContent: "center", paddingTop: "200px"}}>
+      <Validation></Validation>
+    </div>
   );
 };
 
