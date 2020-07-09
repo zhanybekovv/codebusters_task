@@ -13,7 +13,7 @@ const Buttons = styled.div`
   border-radius: 50%;
   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.25);
   width: 4rem;
-  height: 2.5rem;
+  height: 3rem;
   text-decoration: none;
 
   @media (max-width: 1024px) {
